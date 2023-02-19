@@ -1,0 +1,21 @@
+body {
+    background-color: #D57DED;
+    display: inline;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    color: #510E63;
+}
+
+h2 {
+    text-align: center;
+    color: #510E63;
+}
+
+section {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
