@@ -1,4 +1,5 @@
 body {
+    /* background-image: url(""); */
     background-color: #D57DED;
     display: inline;
     margin: auto;
@@ -18,4 +19,14 @@ section {
     width: 50%;
     margin: 0 auto;
     text-align: center;
+
+}
+
+#imagen {
+    /* background-image: url("png-clipart-columbidae-doves-as-symbols-peace-symbols-graphics-symbol.png");
+    background-size: 100px, 100px;
+    background-repeat: no-repeat; */
+    background-color: black;
+
+
 }
