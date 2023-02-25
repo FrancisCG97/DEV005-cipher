@@ -18,7 +18,7 @@
   <section id="botones">
     <div id="cifrado">
       <label for="btn-cifrar">Cifrar</label>
-      <input type="text" id="txt-cifrar" name="cifrado">
+      <input type="textarea" id="txt-cifrar" name="cifrado">
     </div>
     <br>
 
@@ -30,7 +30,7 @@
 
     <div id="descifrado">
       <label for="btn-descifrar">Descifrar</label>
-      <input type="text" id="txt-descifrar" name="descifrado">
+      <input type="textarea" id="txt-descifrar" name="descifrado">
     </div>
     <br>
 
@@ -39,18 +39,15 @@
     <button id="descifrar"> Descifrar texto </button>
     <br>
     <button id="volver"> Volver </button>
+    <button id="prueba"> prueba </button>
 
     <p id="txt"> </p>
 
   </section>
 
-  <div id="imagen"></div>
-
-
-
-  <div id="resultado" style="display: block"></div>
 
   <script src="index.js" type="module"></script>
+  <script src="cipher.js" type="module"></script>
 </body>
 
 </html>
