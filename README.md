@@ -1,18 +1,18 @@
-#PROYECTO PEADOVE
+# PROYECTO PEADOVE
 ***
-####Proyecto Peadove es un sistema de mensajería en clave para apoyar a la Organización Peace Dove.
+#### Proyecto Peadove es un sistema de mensajería en clave para apoyar a la Organización Peace Dove.
 ***
 
-##Usuarios
+## Usuarios
 ***
 Los principales usuarios de este sistema son lxs compañerxs de la Organización, lxs cuales deben enviar mensajes cifrados en una palabra para evitar cualquier corrupción de nuestro medio de comunicación. Además les damos la oportunidad de descifrarlos para así poder mantener la línea de actividad con mayor tranquilidad.
 ***
 
-##Modo de uso:
+## Modo de uso:
 ***
 El sistema de nuestro medio de comunicación es simple, puedes seguir las siguientes instrucciones:
 
-###Para cifrar un mensaje:
+### Para cifrar un mensaje:
 
 -Primero ingresa el mensaje que quieres cifrar en la caja de texto donde dice "Cifrar". ¡OJO! Sólo puedes ingresar letras en mayúscula.
 -Luego elige el número de carácteres que quieres desplazar las letras ingresadas, puedes elegirlos haciendo click sobre las flechas en la caja de texto, o escribiendo tú mismx el número. ¡Ten cuidado!, no te aceptará ninguna letra, asegúrate de escribir un número.
@@ -26,7 +26,7 @@ Ahora que quedó más claro lo del desplazamiento, ¡Continuémos!
 -Por último, haz click en el botón cifrar, automáticamente aparecerá el mensaje cifrado abajo del botón "Volver". ¡Y listo, ya tienes tu mensaje cifrado!
 
 
-###Para descifrar un mensaje:
+### Para descifrar un mensaje:
 -Primero ingresa el mensaje que quieres descifrar en la caja de texto donde dice "Descifrar". ¡OJO! Sólo puedes ingresar letras en mayúscula.
 -Luego elige el número de carácteres que quieres desplazar las letras ingresadas, puedes elegirlos haciendo click sobre las flechas en la caja de texto, o escribiendo tú mismx el número. ¡Ten cuidado!, no te aceptará ninguna letra, asegúrate de escribir un número.
 
@@ -39,7 +39,7 @@ Ahora que quedó más claro lo del desplazamiento, ¡Continuémos!
 -Por último, haz click en el botón descifrar, automáticamente aparecerá el mensaje descifrado abajo del botón "Volver". ¡Y listo, ya tienes tu mensaje descifrado!
 ***
 
-##Nuestro propósito:
+## Nuestro propósito:
 ***
 Nos enfocamos en ayudar a la Organización Peace Dove, la cual se encarga de proteger los Derechos de humanos y animales que estén siendo afectados por el conflicto actual. Al mantenerse en contacto con mensajes cifrados, se mantiene la línea de comunicación sin filtraciones ni obstáculos, y sus actividades no se ven interrumpidas ni saboteadas.
 ***
