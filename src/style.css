@@ -31,8 +31,9 @@ button {
     color: black;
     border: 2px solid #1f9a01;
     border-radius: 4px;
-    padding: 12px 28px;
+    padding: 12px 32px;
     justify-content: space-between;
+    margin: 20px;
 }
   
 #txt {
@@ -44,10 +45,21 @@ button {
     display: block;
 }
 
-input[type=textarea], input[type=number] {
+input[type=textarea] {
     width: 30%;
     padding: 12px 20px;
     margin: auto;
     box-sizing: border-box;
     border-style: ridge;
-  }
+}
+input[type=number] {
+    width: 10%;
+    padding: 12px 20px;
+    margin: auto;
+    box-sizing: border-box;
+    border-style: ridge;
+}
+
+label {
+    font-size: 20px;
+}

@@ -1,31 +1,54 @@
 const cipher = {
 
-  encode: function (textoInicial, desplazamiento) {
-
-    const desplazamientoNumero = parseInt(desplazamiento);//document.getElementById("offset").value;
-    console.log(desplazamientoNumero);
+  encode: function (desplazamiento, textoInicial) {
+    if (!textoInicial || !desplazamiento) {
+      throw new TypeError()
+    }
+    const desplazamientoNumero = parseInt(desplazamiento);
     let textoFinal = "";
 
     for (let i = 0; i < textoInicial.length; i++) {
-      const charOriginal = textoInicial.charCodeAt(i); //textoInicialPartido[i].charCodeAt(0);
-      const textoAconvertir = charOriginal + desplazamientoNumero;
+      const charOriginal = textoInicial.charCodeAt(i);
+      let letraConvertida = "";
+      let textoAconvertir = "";
 
-      const letraConvertida = String.fromCharCode(textoAconvertir);
-      console.log(letraConvertida);
-
+      if (65 <= charOriginal && charOriginal <= 90) {
+        textoAconvertir = (((charOriginal + desplazamientoNumero) - 65) % 26) + 65;
+        letraConvertida = String.fromCharCode(textoAconvertir);
+      }
+      else {
+        alert("Favor ingresar letras en mayusculas");
+      }
       textoFinal += letraConvertida;
-
-      document.getElementById("txt").innerHTML = textoFinal;
-
     }
+    return textoFinal;
   },
 
+  decode: function (desplazamiento_descifrar, textoCifrado) {
+    if (!textoCifrado || !desplazamiento_descifrar) {
+      throw new TypeError()
+    }
+    const desplazamientoNumero = parseInt(desplazamiento_descifrar);
+    let textoDescifrado = "";
 
-  myMethod: function (params) {
-    // ...hacer algo
+    for (let j = 0; j < textoCifrado.length; j++) {
+      const textoOriginal = textoCifrado.charCodeAt(j);
+      let letraDescifrada = ''
+      let letraDescifradaConvertida = "";
+
+      if (65 <= textoOriginal && textoOriginal <= 90) {
+        letraDescifrada = (((textoOriginal - desplazamientoNumero) + 65) % 26) + 65;
+        letraDescifradaConvertida = String.fromCharCode(letraDescifrada);
+      }
+      else {
+        alert('Favor ingresar letras en mayusculas');
+      }
+
+      textoDescifrado += letraDescifradaConvertida;
+    }
+    return textoDescifrado;
   }
 
 };
-
 
 export default cipher;
